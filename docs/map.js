@@ -68,7 +68,7 @@ function addMarkerFromPostcode(postcode, lab) {
         .catch(error => console.error('Failed to fetch postcode coordinates:', error));
 }
 // Path of the CSV file
-var url = '/inputs/lab_info.csv';
+var url = '../inputs/lab_info.csv';
 
 fetch(url)
     .then(response => response.text())

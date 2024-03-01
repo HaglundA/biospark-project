@@ -26,6 +26,7 @@ function addMarkerFromPostcode(postcode, lab) {
                         <h2>${lab['Lab name / Organisation']}</h2>
                         <p>${lab.Description}</p>
                         <p>${lab['Contact email']}</p>
+                        <p>Follow-up: ${lab['Follow-up']}</p>
                     </div>
                 `;
 
